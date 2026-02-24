@@ -21,6 +21,9 @@ phases:
   # post_build:
   #   commands:
   #     - echo Build completed on `date`
+# artifacts:
+#   files:
+#     - target/b78am.war
 artifacts:
   files:
-    - target/b78am.war
+    - '**/*'
