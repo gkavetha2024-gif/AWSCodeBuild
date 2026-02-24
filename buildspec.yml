@@ -23,7 +23,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - cloudbuild.war
+    - target/cloudbuild.war
 # artifacts:
 #   files:
 #     - '**/*'
