@@ -39,10 +39,10 @@
     
 <distributionManagement>
     
-      <!-- <repository>
-        <id>bcr-b78am</id>
-        <url>https://bcr-420815905200.d.codeartifact.us-east-1.amazonaws.com/maven/b78am/</url>
-      </repository> -->
+    <repository>
+        <id>kav-codebuildpro</id>
+        <url>https://kav-833516483298.d.codeartifact.us-east-1.amazonaws.com/maven/codebuildpro/</url>
+    </repository>
 
 </distributionManagement>    
     
@@ -136,6 +136,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>b78am</finalName>
+        <finalName>Kavita-CloudBuild</finalName>
     </build>
 </project>
