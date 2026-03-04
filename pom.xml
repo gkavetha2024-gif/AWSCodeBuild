@@ -3,11 +3,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>cloudbinaryb78am</artifactId>
+    <artifactId>AWSDevOps_2026</artifactId>
     <!-- <version>9.0.0</version>-->
     <version>6.0.0-SNAPSHOT</version> 
     <packaging>war</packaging>
     <name>Cloud Binary - Sample Spring MVC Application</name>
+
+      <!-- Below properties from sonarcloud -->
 
     <properties>
         <junit.platform.version>1.2.0</junit.platform.version>
@@ -22,8 +24,9 @@
         
         
     </properties>
-
-    <!--
+  
+       <!-- Below Code for jfrog local and snapshot -->
+    
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -36,18 +39,18 @@
         <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
     </repository>	
 </distributionManagement>
-    -->
+ 
     
- <!-- Comment below repository and update above code-->
+ <!-- Comment below repository and update above code for AWS-->
 
-<distributionManagement>
+<!-- <distributionManagement>
     
     <repository>
         <id>kav-codebuildpro</id>
         <url>https://kav-833516483298.d.codeartifact.us-east-1.amazonaws.com/maven/codebuildpro/</url>
     </repository>
 
-</distributionManagement>    
+</distributionManagement>     -->
     
     <dependencies>
         <dependency>

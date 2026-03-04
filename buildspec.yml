@@ -22,6 +22,8 @@ phases:
       #- mvn deploy
       - mvn install
       - echo "Deliver Artifact To Tomcat and deploy"
+      #- aws s3 cp s3://8amcloudbinary/devops.war /usr/share/tomcat/webapps/devops.war
+      #- sh 'curl -u admin:redhat@123 -T target/**.war "http://44.211.143.213:8080/manager/text/deploy?path=/b78am&update=true"'
   post_build:
     commands:
       - echo Build completed on `date`
